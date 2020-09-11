@@ -23,6 +23,7 @@ calico:
     nodeSelector:
       beta.kubernetes.io/os: linux
   node:
+    podAnnotations: {}
     logseverity: Info #Debug, Info, Warning, Error, Fatal
     image: quay.io/calico/node
     resources:
